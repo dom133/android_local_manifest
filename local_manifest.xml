@@ -3,8 +3,8 @@
   
   <project path="device/lge/msm8916-common" name="LG-K10/android_device_lge_msm8916-common" revision="cm-14.1" />
   <project path="device/lge/m216" name="LG-K10/android_device_lge_m216" remote="github" revision="cm-14.1" />
-  <project path="kernel/lge/msm8916" name="LG-K10/android_kernel_lge_m216" revision="cm-14.1" />
-  <project path="vendor/lge/m216" name="LG-K10/android_vendor_lge" revision="cm-14.1" />
+  <project path="kernel/lge/msm8916" name="LG-K10/android_kernel_lge_msm8916" revision="cm-14.1" />
+  <project path="vendor/lge/m216" name="LG-K10/android_vendor_lge_m216" revision="cm-14.1" />
   
   <!-- qcom/common device tree for dtbtool -->
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="cm-14.1" />
