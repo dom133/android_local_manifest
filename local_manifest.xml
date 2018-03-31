@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- LG-K10 -->
-  <project path="device/lge/msm8996-common" name="LG-K10/android_device_lge_msm8916-common" remote="github" revision="lineage-15.1" />
+  <!-- LG-G6 -->
+  <project path="device/lge/msm8996-common" name="EvilHowl/android_device_lge_msm8996-common" remote="github" revision="lineage-15.1" />
+  <project path="device/lge/g6-common" name="EvilHowl/android_device_lge_g6-common" remote="github" revision="lineage-15.1" />
   <project path="device/lge/h870" name="EvilHowl/android_device_lge_h870" remote="github" revision="lineage-15.1" />
+  <project path="device/lge/common" name="EvilHowl/android_device_lge_common" remote="github" revision="lineage-15.1" />
   <project path="kernel/lge/msm8996" name="EvilHowl/android_kernel_lge_msm8996" remote="github" revision="lineage-15.1" />
   <project path="vendor/lge" name="EvilHowl/proprietary_vendor_lge" remote="github" revision="lineage-15.1" />
-  <project path="device/lge/common" name="EvilHowl/android_device_lge_common" remote="github" revision="lineage-15.1" />
 </manifest>
