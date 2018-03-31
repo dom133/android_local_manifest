@@ -1,24 +1,13 @@
-# m216_manifest
-Local manifest file for building LineageOS 14.1 for LG K420 DS/N
+_LineageOS 15.1 for LG G6(H870)_
+---------------------------
 
-Steps to build LineageOS for K10 4G LTE:
+the local manifests:
 
-### Initialize the LineageOS source repository
+	$ repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
+	$ git clone https://github.com/dom133/android_local_manifest -b lineage-15.1-G6 .repo/local_manifests
 
-Enter the following to initialize the repository:
-```
-cd ~/android/system/
-repo init -u git://github.com/LineageOS/android.git -b cm-14.1
-```
-### Get the required local manifest
+Then sync up with this command:
 
-```
-mkdir -p ~/android/system/.repo/local_manifests
-curl https://raw.githubusercontent.com/LG-K10/android_local_manifest/cm-14.1/local_manifest.xml > .repo/local_manifests/local_manifest.xml
-```
-
-### Let's start downloading the source code!
-
-```
-repo sync
-```
+	$ repo sync --force-sync
+	
+You can make the 4 higher depending on how fast your internet connection is. 
