@@ -3,8 +3,8 @@ _LineageOS 15.1 for LG G6(H870)_
 
 the local manifests:
 
-	$ repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
-	$ git clone https://github.com/dom133/android_local_manifest -b lineage-15.1-G6 .repo/local_manifests
+	$ repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
+	$ git clone https://github.com/dom133/android_local_manifest -b lineage-16.0-G .repo/local_manifests
 
 Then sync up with this command:
 
