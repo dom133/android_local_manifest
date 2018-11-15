@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!--	<remove-project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio-caf" remote="github" revision="cm-14.1" /> -->
-  	<remove-project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" />
 	<remove-project path="hardware/qcom/audio-caf" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-16.0" />
 <!-- Vendor Files For LG Devices -->   
 	<project name="x86cpu/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lineage-16.0" />
@@ -17,6 +16,5 @@
 	
    
 <!-- Projects Replaced By Removed -->
-	<project name="dom133/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="github" revision="lineage-16.0" />
     	<project name="dom133/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="github" revision="lineage-16.0-caf-8996" />
 </manifest>
