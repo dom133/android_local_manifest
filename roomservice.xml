@@ -3,10 +3,7 @@
 	<remove-project path="system/core" name="platform_system_core" groups="pdk" remote="aex" />
 	<!-- BT -->
 	<remove-project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="los" />
-	<remove-project path="system/bt" name="platform_system_bt" remote="aex" />
-	<remove-project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="los" />
-  	<remove-project path="hardware/qcom/bt-caf" name="platform_hardware_qcom_bt" groups="qcom" remote="aex" revision="9.x-caf" />
-
+	
 <!-- Vendor Files For LG Devices -->   
 	<project name="Aqua-devices/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="a9-caf" />
 <!-- LG G6 H870 Device --> 
@@ -20,8 +17,5 @@
 	
 	<project path="system/core" name="dom133/platform_system_core" groups="pdk" remote="github" revision="9.x" />
 	<!-- BT -->
-	<project path="system/bt" name="AquariOS/system_bt" remote="github" revision="a9-caf"/>
 	<project path="hardware/broadcom/libbt" name="AquariOS/hardware_broadcom_libbt" groups="pdk" remote="github" revision="a9-caf" />
-	<project path="hardware/qcom/bt" name="AquariOS/hardware_qcom_bt" groups="qcom" remote="github" revision="a9-caf-aosp" />
-  	<project path="hardware/qcom/bt-caf" name="AquariOS/hardware_qcom_bt" groups="qcom" remote="github" revision="a9-caf" />
 </manifest>
