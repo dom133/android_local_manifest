@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remove-project path="system/core" name="platform_system_core" groups="pdk" remote="aex" />
-	<!-- BT -->
-	<remove-project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="los" />
 	
 <!-- Vendor Files For LG Devices -->   
 	<project name="Aqua-devices/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="a9-caf" />
@@ -16,6 +14,4 @@
 	<project name="Aqua-devices/kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="a9-caf" />
 	
 	<project path="system/core" name="dom133/platform_system_core" groups="pdk" remote="github" revision="9.x" />
-	<!-- BT -->
-	<project path="hardware/broadcom/libbt" name="AquariOS/hardware_broadcom_libbt" groups="pdk" remote="github" revision="a9-caf" />
 </manifest>
