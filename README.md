@@ -17,6 +17,6 @@ Finally to build:
 
 ```bash
   . build/envsetup.sh
-  lunch aosp_device_codename-userdebug
+  lunch aosp_h870-userdebug
   mka aex -j$(nproc --all)
 ```
