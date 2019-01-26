@@ -8,6 +8,15 @@ the local manifests:
 
 Then sync up with this command:
 
-	$ repo sync --force-sync
+	$ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 	
 You can make the 4 higher depending on how fast your internet connection is. 
+
+Finally to build:
+-----------------
+
+```bash
+  . build/envsetup.sh
+  lunch aosp_device_codename-userdebug
+  mka aex -j$(nproc --all)
+```
