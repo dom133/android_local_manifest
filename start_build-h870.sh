@@ -5,7 +5,6 @@ git fetch https://github.com/LineageOS/android_hardware_qcom_audio refs/changes/
 cd ~/aex/frameworks/base/
 git fetch https://github.com/LG-G6-DEV/frameworks_base poundcake-release && git cherry-pick 1d00a1ab3bc2c2f4e42f20e0877c4df38dec79d0
 cd ~/aex
-export WITH_GAPPS=true
 . build/envsetup.sh
 make clean
 lunch aosp_h870-userdebug
