@@ -22,3 +22,4 @@ sudo cp ~/aex/out/target/product/us997/AospExtended-*-us997-*.zip /var/www/html/
 cd /var/www/html/
 sudo megamkdir -u  -p /G6_AEX/$(date +'%d/%m/%Y')
 sudo megaput --path /G6_AEX/$(date +'%d/%m/%Y') -u  -p  *
+sudo poweroff
