@@ -20,6 +20,6 @@ sudo cp ~/aex/out/target/product/h870/AospExtended-*-h870-*.zip /var/www/html/
 sudo cp ~/aex/out/target/product/h872/AospExtended-*-h872-*.zip /var/www/html/
 sudo cp ~/aex/out/target/product/us997/AospExtended-*-us997-*.zip /var/www/html/
 cd /var/www/html/
-sudo megamkdir -u  -p /G6_AEX/$(date +'%d/%m/%Y')
-sudo megaput --path /G6_AEX/$(date +'%d/%m/%Y') -u  -p  *
+sudo megamkdir -u  -p /Root/G6_AEX/$(date +'%d.%m.%Y')
+sudo megaput --path /Root/G6_AEX/$(date +'%d.%m.%Y') -u  -p  *
 sudo poweroff
