@@ -1,11 +1,4 @@
 cd ~/aex
-# Use Gcam and Jelly
-export TARGET_USE_GCAM = true
-export TARGET_USE_JELLY = true
-# Use Gapps
-export WITH_GAPPS = true
-export TARGET_GAPPS_ARCH = arm64
-export IS_PHONE = true
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 cd ~/aex/hardware/qcom/audio-caf/msm8996/
 git fetch https://github.com/LineageOS/android_hardware_qcom_audio refs/changes/38/239638/1 && git cherry-pick FETCH_HEAD
