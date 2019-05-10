@@ -1,4 +1,4 @@
- #!/bin/bash
+#!/bin/bash
 cd ~/aex
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 cd ~/aex/frameworks/base/
