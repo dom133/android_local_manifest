@@ -57,7 +57,5 @@ FILE_GAPPS=$(ls AospExtended-*-us997-*.zip | sed -e 's/\.zip$//')
 sudo cp ~/aex/out/target/product/us997/$FILE_GAPPS.zip /var/www/html/$FILE_GAPPS-gapps.zip 
 rm ~/aex/out/target/product/us997/AospExtended-*-us997-*.zip
 
-cd /var/www/html/
-sudo megamkdir -u  -p /Root/G6_AEX/$(date +'%d.%m.%Y')
-sudo megaput --path /Root/G6_AEX/$(date +'%d.%m.%Y') -u  -p  *
-sudo poweroff
+cd ~/
+./upload.sh
