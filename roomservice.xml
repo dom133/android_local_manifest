@@ -8,7 +8,7 @@
 	<project name="dom133/android_device_lge_us997" path="device/lge/us997" remote="github" revision="aex-pie" />
 	
 	<project name="LG-G6-DEV/android_device_lge_g6-common" path="device/lge/g6-common" remote="github" revision="aoscp" />
-	<project name="LG-G6-DEV/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" revision="pie" />
+	<project name="dom133/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" revision="pie" />
 	
 	<project name="dom133/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="pie" />
 	
