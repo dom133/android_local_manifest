@@ -15,6 +15,5 @@ mka aex -j$(nproc --all)
 sudo cp ~/aex/out/target/product/h870/AospExtended-*-h870-*.zip /var/www/html/
 rm ~/aex/out/target/product/h870/AospExtended-*-h870-*.zip
 
-cd /var/www/html/
-sudo megamkdir -u  -p /Root/G6_AEX/$(date +'%d.%m.%Y')-BETA
-sudo megaput --path /Root/G6_AEX/$(date +'%d.%m.%Y')-BETA -u  -p  *
+cd ~/
+./upload-beta.sh
