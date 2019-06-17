@@ -16,7 +16,7 @@ cd ~/aex/
 lunch aosp_h870-userdebug
 mka aex -j$(nproc --all)
 sudo cp ~/aex/out/target/product/h870/AospExtended-*-h870-*.zip /var/www/html/
-rm ~/aex/out/target/product/h870/AospExtended-*-h870-*.zip
+make clean
 
 export WITH_GAPPS=true
 cd ~/aex/
@@ -25,14 +25,14 @@ mka aex -j$(nproc --all)
 cd ~/aex/out/target/product/h870/
 FILE_GAPPS=$(ls AospExtended-*-h870-*.zip | sed -e 's/\.zip$//')
 sudo cp ~/aex/out/target/product/h870/$FILE_GAPPS.zip /var/www/html/$FILE_GAPPS-gapps.zip 
-rm ~/aex/out/target/product/h870/AospExtended-*-h870-*.zip
+make clean
 
 export WITH_GAPPS=false
 cd ~/aex/
 lunch aosp_h872-userdebug
 mka aex -j$(nproc --all)
 sudo cp ~/aex/out/target/product/h872/AospExtended-*-h872-*.zip /var/www/html/
-rm ~/aex/out/target/product/h872/AospExtended-*-h872-*.zip
+make clean
 
 export WITH_GAPPS=true
 cd ~/aex/
@@ -41,14 +41,14 @@ mka aex -j$(nproc --all)
 cd ~/aex/out/target/product/h872/
 FILE_GAPPS=$(ls AospExtended-*-h872-*.zip | sed -e 's/\.zip$//')
 sudo cp ~/aex/out/target/product/h872/$FILE_GAPPS.zip /var/www/html/$FILE_GAPPS-gapps.zip 
-rm ~/aex/out/target/product/h872/AospExtended-*-h872-*.zip
+make clean
 
 export WITH_GAPPS=false
 cd ~/aex/
 lunch aosp_us997-userdebug
 mka aex -j$(nproc --all)
 sudo cp ~/aex/out/target/product/us997/AospExtended-*-us997-*.zip /var/www/html/
-rm ~/aex/out/target/product/us997/AospExtended-*-us997-*.zip
+make clean
 
 export WITH_GAPPS=true
 cd ~/aex/
@@ -57,7 +57,7 @@ mka aex -j$(nproc --all)
 cd ~/aex/out/target/product/us997/
 FILE_GAPPS=$(ls AospExtended-*-us997-*.zip | sed -e 's/\.zip$//')
 sudo cp ~/aex/out/target/product/us997/$FILE_GAPPS.zip /var/www/html/$FILE_GAPPS-gapps.zip 
-rm ~/aex/out/target/product/us997/AospExtended-*-us997-*.zip
+make clean
 
 cd ~/
 ./upload.sh
