@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<remote name="gogs"
+           fetch="https://git.dom133.xyz"
+           sync-c="true"
+           sync-j="8" />
+	
 <!-- Vendor Files For LG Devices -->   
 	<project name="LG-G6-DEV/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="pie" />
 <!-- LG G6 Devices --> 
@@ -8,7 +13,7 @@
 	<project name="dom133/android_device_lge_us997" path="device/lge/us997" remote="github" revision="aex-pie" />
 	
 	<project name="LG-G6-DEV/android_device_lge_g6-common" path="device/lge/g6-common" remote="github" revision="pie" />
-	<project name="LG-G6-DEV/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" revision="pie" />
+	<project name="LG-G6-DEV/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="gogs" revision="pie" />
 	
 	<project name="LG-G6-DEV/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="caf" />
 	
