@@ -7,7 +7,7 @@ git fetch https://github.com/LG-G6-DEV/frameworks_base poundcake-release && git 
 export SELINUX_IGNORE_NEVERALLOWS=true
 
 cd ~/los
-. build/envsetup.sh
+source build/envsetup.sh
 make clean
 sudo rm -rf /var/www/html/*
 
