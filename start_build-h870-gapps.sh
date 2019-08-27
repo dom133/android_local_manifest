@@ -9,12 +9,12 @@ export SELINUX_IGNORE_NEVERALLOWS=true
 cd ~/aex
 . build/envsetup.sh
 make clean
-sudo rm -rf /var/www/html/*
+sudo rm -rf /home/dom133/builds/*
 
 export WITH_GAPPS=true
 lunch aosp_h870-userdebug
 mka aex -j$(nproc --all)
-sudo cp ~/aex/out/target/product/h870/AospExtended-*-h870-*.zip /var/www/html/
+sudo cp ~/aex/out/target/product/h870/AospExtended-*-h870-*.zip /home/dom133/builds/
 rm ~/aex/out/target/product/h870/AospExtended-*-h870-*.zip
 
 cd ~/
