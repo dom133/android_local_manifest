@@ -16,5 +16,5 @@ Finally to build:
 -----------------
 
 ```bash
-  ./rom-build.sh pa_h870
+  ./rom-build.sh h870
 ```
