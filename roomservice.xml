@@ -12,7 +12,7 @@
 	
 	<project name="LG-G6-DEV/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="caf" />
 	
-	<remove-project path="frameworks/native" name="AospExtended/platform_frameworks_native" /> 
+	<remove-project path="frameworks/native" name="platform_frameworks_native" /> 
 	<project path="frameworks/native" name="AospExtended/platform_frameworks_native" remote="github" revision="9.x" />
 	
 	<!-- <remove-project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8996" /> -->
