@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Vendor Files For LG Devices -->   
-	<project name="dom133/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="pie" />
+	<project name="LG-G6-DEV/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="aosp-q" />
 <!-- LG G6 Devices --> 
 	<project name="dom133/android_device_lge_h870" path="device/lge/h870" remote="github" revision="aosp-q" />
 	
