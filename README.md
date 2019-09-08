@@ -1,9 +1,9 @@
-_AOSP Q for LG G6(H870)_
+_LOS Q for LG G6(H870)_
 ---------------------------
 
 the local manifests:
 
-	git clone https://github.com/dom133/android_local_manifest -b aosp-q .repo/local_manifests
+	git clone https://github.com/dom133/android_local_manifest -b lineage-17.0-G6-caf .repo/local_manifests
 
 Then sync up with this command:
 
@@ -16,6 +16,6 @@ Finally to build:
 
 ```bash
   . build/envsetup.sh
-  lunch aosp_h870-userdebug
-  m
+  lunch lineage_h870-userdebug
+  brunch lineage_h870-userdebug
 ```
