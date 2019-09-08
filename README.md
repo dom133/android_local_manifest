@@ -1,4 +1,4 @@
-_LOS Q for LG G6(H870)_
+_LOS 17.0 for LG G6(H870)_
 ---------------------------
 
 the local manifests:
