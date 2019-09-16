@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="git.own"
-           fetch="http://51.68.146.255:3000"/>
+           fetch="https://gitlab.dom133.xyz"/>
 <!-- Vendor Files For LG Devices -->   
-	<project name="LG-G6-DEV/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="aosp-q" />
+	<project name="LG-G6-DEV/proprietary_vendor_lge" path="vendor/lge" remote="git.own" revision="lineage-17.0" />
 <!-- LG G6 Devices --> 
 	<project name="dom133/android_device_lge_h870" path="device/lge/h870" remote="github" revision="lineage-17.0" />
 	
 	<project name="LG-G6-DEV/android_device_lge_g6-common" path="device/lge/g6-common" remote="github" revision="aosp-q" />
-	<project name="LG-G6-DEV/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="git.own" revision="aosp-q" />
+	<project name="LG-G6-DEV/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="git.own" revision="lineage-17.0" />
 	
 	<project name="LG-G6-DEV/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="aosp-q-caf" />
 
