@@ -240,7 +240,7 @@ repopick -P packages/apps/PermissionController ${changes[@]}&
 changes=(
 258304 # Settings: Add LineageParts charging sound settings preference
 258819 # Settings: Add lockscreen visualizer toggle
-258856 # Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
+#258856 # Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
 259315 # One does not simply become a Developer
 259459 # storage: Do not allow eject for volumes on non-removable disks
 259455 # Settings: per-app cellular data, vpn and wifi restrictions
