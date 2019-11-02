@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /var/lib/jenkins/los
+cd ~/los
 
 set -e
 source build/envsetup.sh
