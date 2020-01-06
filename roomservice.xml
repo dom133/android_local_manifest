@@ -11,7 +11,7 @@
 	<project name="LG-G6-DEV/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="lineage-17.0" />
 
 	<!-- CodeAurora additions -->
-  	<project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="github" groups="qcom,pdk-qcom" />
+  	<project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="github" groups="qcom,pdk-qcom" revision="lineage-17.1" />
   	<project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy" remote="github" groups="qcom,pdk-qcom" revision="lineage-17.1-legacy" />
   	<project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" remote="github" groups="qcom,pdk-qcom" revision="lineage-17.1-legacy-um" />
 	
