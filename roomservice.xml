@@ -16,9 +16,9 @@
 	
 	<project name="LG-G6-DEV/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="lineage-17.0" />
 	
-	<remove-project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" />
-	<remove-project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
-	<remove-project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" />
+	<remove-project path="system/bt" />
+	<remove-project path="packages/apps/Bluetooth" />
+	<remove-project path="hardware/qcom/bt" />
 	
 	<project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp_23" />
 	<project path="system/bt" name="platform/system/bt" remote="aosp_23" />
