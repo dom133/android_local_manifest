@@ -9,12 +9,12 @@ export SELINUX_IGNORE_NEVERALLOWS=true
 cd ~/aex
 . build/envsetup.sh
 make clobber
-make depmod
 sudo rm -rf ~/builds/*
 
 export WITH_GAPPS=false
 cd ~/aex/
 lunch aosp_h870-userdebug
+make depmod
 mka aex -j$(nproc --all)
 sudo cp ~/aex/out/target/product/h870/AospExtended-*-h870-*.zip ~/builds/
 
