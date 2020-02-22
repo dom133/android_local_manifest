@@ -10,19 +10,19 @@ cd ~/aex
 . build/envsetup.sh
 make clobber
 make depmod
-sudo rm -rf /home/dom133/builds/*
+sudo rm -rf ~/builds/*
 
 export WITH_GAPPS=false
 cd ~/aex/
 lunch aosp_h870-userdebug
 mka aex -j$(nproc --all)
-sudo cp ~/aex/out/target/product/h870/AospExtended-*-h870-*.zip /home/dom133/builds/
+sudo cp ~/aex/out/target/product/h870/AospExtended-*-h870-*.zip ~/builds/
 
 export WITH_GAPPS=false
 cd ~/aex/
 lunch aosp_h872-userdebug
 mka aex -j$(nproc --all)
-sudo cp ~/aex/out/target/product/h872/AospExtended-*-h872-*.zip /home/dom133/builds/
+sudo cp ~/aex/out/target/product/h872/AospExtended-*-h872-*.zip ~/builds/
 
 export WITH_GAPPS=false
 cd ~/aex/
