@@ -16,13 +16,6 @@
 	<project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="aosp" />
 	<project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="lineage-17.1"/>
 	
-	<project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.1">
-	    <!-- add guard for AOSP hardware/qcom dir -->
-	    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-	    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
-	    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
-	</project>
-	
 	<project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.1-caf" />
 	<project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="lineage-17.1-caf-msm8996" />
   	<project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="lineage-17.1-caf-msm8996" />
