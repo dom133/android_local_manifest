@@ -15,13 +15,6 @@
 	
 	<project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="aosp" />
 	<project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="lineage-17.1"/>
-		
-	<project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-17.1" />
-	<project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="lineage-17.1" />
-	<project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="lineage-17.1" />
-	<project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" remote="github" revision="lineage-17.1" />
-	<project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.1" />
-	<project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" remote="aosp" />
 	
 	<project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.1">
 	    <!-- add guard for AOSP hardware/qcom dir -->
