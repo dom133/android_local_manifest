@@ -18,7 +18,7 @@
 	
 	<remove-project path="external/deqp" name="platform/external/deqp" />
 	
-	<project path="hardware/qcom-caf/common" name="AOSPA/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="github" revision="quartz">
+	<project path="hardware/qcom-caf/common" name="AOSPA/android_device_qcom_common" groups="qcom,pdk-qcom" remote="github" revision="quartz">
 	    <!-- add guard for AOSP hardware/qcom dir -->
 	    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
 	</project>
