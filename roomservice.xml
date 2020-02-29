@@ -17,11 +17,6 @@
 	<project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="lineage-17.1"/>
 	
 	<remove-project path="external/deqp" name="platform/external/deqp" />
-	
-	<project path="hardware/qcom-caf/common" name="AOSPA/android_device_qcom_common" groups="qcom,pdk-qcom" remote="github" revision="quartz">
-	    <!-- add guard for AOSP hardware/qcom dir -->
-	    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-	</project>
 
 	<project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="lineage-17.1"/>
 	<project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.1"/>
