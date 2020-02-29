@@ -16,7 +16,7 @@
 	<project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="aosp" />
 	<project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="lineage-17.1"/>
 	
-	<remove-project name="platform/hardware/qcom/display" path="hardware/qcom/display"></project>
+	<remove-project name="platform/hardware/qcom/display" path="hardware/qcom/display" />
 		
 	<project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-17.1" />
 	
