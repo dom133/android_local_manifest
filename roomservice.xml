@@ -13,10 +13,6 @@
 	<!-- <project name="LG-G6-DEV/lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="LA.UM.7.5.r1-04800-8x96.0" /> -->
 	<project name="LG-G6-DEV/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="lineage-17.0" />
 
-	<project path="hardware/qcom/audio" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="quartz-89xx" />
-  	<project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="quartz-89xx" />
-  	<project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="github" revision="quartz-89xx" />
-	
 	<!-- <remove-project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8996" /> -->
 	<!-- <project name="dom133/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="github" revision="lineage-16.0-caf-8996" /> -->
 </manifest>
