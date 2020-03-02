@@ -19,7 +19,6 @@
 	<project name="LG-G6-DEV/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="lineage-17.0" />
 	
 	<remove-project name="platform/hardware/ril" path="hardware/ril" />
-	<remove-project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" />
 	
 	<project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="aosp_r27" />
 	<project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="lineage-17.1"/>
