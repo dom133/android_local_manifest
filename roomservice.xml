@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<remote  name="aosp_r27"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-10.0.0_r27" />
+	
 <!-- Vendor Files For LG Devices -->   
 	<project name="LG-G6-DEV/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lineage-17.0" />
 <!-- LG G6 Devices --> 
@@ -15,13 +20,13 @@
 	
 	<remove-project name="platform/hardware/ril" path="hardware/ril"/>
 	
-	<project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="aosp" />
+	<project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="aosp_r27" />
 	<project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="lineage-17.1"/>
 	
 	<project path="hardware/qcom/audio" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="quartz-89xx" />
   	<project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="quartz-89xx" />
   	<project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="github" revision="quartz-89xx" />
-	<project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" remote="aosp" />
+	<project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" remote="aosp_r27" />
 	
 	<project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="github" revision="lineage-17.1" />
 	
