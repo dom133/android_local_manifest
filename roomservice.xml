@@ -14,6 +14,10 @@
 	<project name="LG-G6-DEV/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="lineage-17.0" />
 	
 	<remove-project name="platform/hardware/ril" path="hardware/ril" />
+	<remove-project path="frameworks/opt/telephony" name="AOSPA/android_frameworks_opt_telephony" />
+	<remove-project path="packages/services/Telephony" name="AOSPA/android_packages_services_Telephony" />
+	<remove-project path="vendor/codeaurora/commonsys/telephony" name="AOSPA/android_vendor_codeaurora_commonsys_telephony" />
+	<remove-project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" />
 	
 	<project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="aosp" />
 	<project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="lineage-17.1"/>
@@ -23,6 +27,10 @@
   	<project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="github" revision="quartz-89xx" />
 	
 	<project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="github" revision="lineage-17.1" />
+	
+	<project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" remote="github" revision="lineage-17.1" />
+	<project path="packages/providers/TelephonyProvider" name="LineageOS/android_packages_providers_TelephonyProvider" remote="github" revision="lineage-17.1" />
+	<project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" remote="github" revision="lineage-17.1" />
 	
 	<!-- <remove-project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8996" /> -->
 	<!-- <project name="dom133/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="github" revision="lineage-16.0-caf-8996" /> -->
