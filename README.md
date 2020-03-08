@@ -1,9 +1,9 @@
-_QUARTZ for LG G6(H870)_
+_Dirty Unicorns Q for LG G6(H870)_
 ---------------------------
 
 the local manifests:
 
-	git clone https://github.com/dom133/android_local_manifest -b quartz-G6 .repo/local_manifests
+	git clone https://github.com/dom133/android_local_manifest -b du-q10x-G6 .repo/local_manifests
 
 Then sync up with this command:
 
@@ -16,5 +16,6 @@ Finally to build:
 
 ```bash
   . build/envsetup.sh
-  ./rom-build.sh h870
+  lunch du_h870-userdebug
+  mka bacon
 ```
