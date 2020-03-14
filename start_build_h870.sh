@@ -12,6 +12,6 @@ rm -rf ~/builds/*
 source build/envsetup.sh
 repopick 9742 9743 8709
 
-./rom-build.sh -c -v alpha h870
+./rom-build.sh -c -v beta h870
 
 cp ~/PA/out/target/product/h870/pa-quartz-alpha-*-h870-*.zip ~/builds/
