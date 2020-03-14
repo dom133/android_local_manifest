@@ -7,11 +7,11 @@ git fetch https://github.com/LG-G6-DEV/havoc_frameworks_base ten && git cherry-p
 export SELINUX_IGNORE_NEVERALLOWS=true
 
 cd ~/PA
-sudo rm -rf ~/builds/*
+rm -rf ~/builds/*
 
 source build/envsetup.sh
 repopick 9742 9743 8709
 
 ./rom-build.sh -c -v alpha h870
 
-sudo cp ~/PA/out/target/product/h870/pa-quartz-alpha-*-h870-*.zip ~/builds/
+cp ~/PA/out/target/product/h870/pa-quartz-alpha-*-h870-*.zip ~/builds/
