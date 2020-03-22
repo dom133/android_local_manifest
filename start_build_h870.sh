@@ -10,7 +10,7 @@ cd ~/PA
 rm -rf ~/builds/*
 
 source build/envsetup.sh
-repopick 9742 9743 8709
+repopick 8709
 
 ./rom-build.sh -c -v beta h870
 
