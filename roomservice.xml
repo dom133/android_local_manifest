@@ -13,10 +13,8 @@
 	<!-- <project name="LG-G6-DEV/lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="LA.UM.7.5.r1-04800-8x96.0" /> -->
 	<project name="LG-G6-DEV/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="lineage-17.0" />
 	
-	<remove-project path="system/bt" name="platform_system_bt" />
 	<remove-project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" />
 	
-	<project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="github" revision="lineage-17.1" />
 	<project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" remote="github" revision="lineage-17.1" />
 	
 	<!-- <remove-project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8996" /> -->
