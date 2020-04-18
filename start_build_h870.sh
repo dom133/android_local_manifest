@@ -10,8 +10,7 @@ cd ~/PA
 rm -rf ~/builds/*
 
 source build/envsetup.sh
-repopick 8709
 
-./rom-build.sh -c -v beta h870
+./rom-build.sh -c h870
 
 cp ~/PA/out/target/product/h870/pa-quartz-beta-*-h870-*.zip ~/builds/
