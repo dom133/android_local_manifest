@@ -9,15 +9,15 @@ export SELINUX_IGNORE_NEVERALLOWS=true
 export TARGET_DISABLES_GAPPS=true
 
 cd ~/PA
-rm -rf ~/builds/*
+rm -rf ~/builds/roms/*
 
 source build/envsetup.sh
 
 ./rom-build.sh -c h870
-mv ~/PA/out/target/product/h870/pa-quartz*-h870-*.zip ~/builds/
+mv ~/PA/out/target/product/h870/pa-quartz*-h870-*.zip ~/builds/roms/
 
 ./rom-build.sh -c h872
-mv ~/PA/out/target/product/h872/pa-quartz*-h872-*.zip ~/builds/
+mv ~/PA/out/target/product/h872/pa-quartz*-h872-*.zip ~/builds/roms/
 
 ./rom-build.sh -c us997
-mv ~/PA/out/target/product/us997/pa-quartz*-us997-*.zip ~/builds/
+mv ~/PA/out/target/product/us997/pa-quartz*-us997-*.zip ~/builds/roms/
