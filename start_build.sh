@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e 
+
 cd ~/PA
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
@@ -21,3 +23,6 @@ mv ~/PA/out/target/product/h872/pa-quartz*-h872-*.zip ~/builds/roms/
 
 ./rom-build.sh -c us997
 mv ~/PA/out/target/product/us997/pa-quartz*-us997-*.zip ~/builds/roms/
+
+cd ~
+./upload_roms_build.sh
