@@ -9,10 +9,10 @@ export SELINUX_IGNORE_NEVERALLOWS=true
 export TARGET_DISABLES_GAPPS=true
 
 cd ~/PA
-rm -rf ~/builds/*
+rm -rf ~/builds/roms/*
 
 source build/envsetup.sh
 
 ./rom-build.sh -c h870
 
-cp ~/PA/out/target/product/h870/pa-quartz*-h870-*.zip ~/builds/
+cp ~/PA/out/target/product/h870/pa-quartz*-h870-*.zip ~/builds/roms/
