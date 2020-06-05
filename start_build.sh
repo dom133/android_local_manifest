@@ -11,18 +11,19 @@ export SELINUX_IGNORE_NEVERALLOWS=true
 export TARGET_DISABLES_GAPPS=true
 
 cd ~/PA
-rm -rf ~/builds/roms/*
+rm -rf ~/builds/roms/pa/*
 
 source build/envsetup.sh
+make clobber
 
 ./rom-build.sh -c h870
-mv ~/PA/out/target/product/h870/pa-quartz*-h870-*.zip ~/builds/roms/
+mv ~/PA/out/target/product/h870/pa-quartz*-h870-*.zip ~/builds/roms/pa/
 
 ./rom-build.sh -c h872
-mv ~/PA/out/target/product/h872/pa-quartz*-h872-*.zip ~/builds/roms/
+mv ~/PA/out/target/product/h872/pa-quartz*-h872-*.zip ~/builds/roms/pa/
 
 ./rom-build.sh -c us997
-mv ~/PA/out/target/product/us997/pa-quartz*-us997-*.zip ~/builds/roms/
+mv ~/PA/out/target/product/us997/pa-quartz*-us997-*.zip ~/builds/roms/pa/
 
 cd ~/
 ./upload_pa_build.sh
