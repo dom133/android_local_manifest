@@ -14,6 +14,7 @@ cd ~/PA
 rm -rf ~/builds/roms/pa/*
 
 source build/envsetup.sh
+make clobber
 
 ./rom-build.sh -c h870
 
