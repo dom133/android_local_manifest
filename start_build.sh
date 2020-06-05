@@ -15,17 +15,17 @@ export WITH_GAPPS=false
 cd ~/aex/
 lunch aosp_h870-userdebug
 make depmod
-mka aex -j$(nproc --all)
+mka aex -j$(nproc --all) | tee log.txt
 sudo cp ~/aex/out/target/product/h870/AospExtended-*-h870-*.zip ~/builds/roms/aex/
 
 export WITH_GAPPS=false
 cd ~/aex/
 lunch aosp_h872-userdebug
-mka aex -j$(nproc --all)
+mka aex -j$(nproc --all) | tee log.txt
 sudo cp ~/aex/out/target/product/h872/AospExtended-*-h872-*.zip ~/builds/roms/aex/
 
 export WITH_GAPPS=false
 cd ~/aex/
 lunch aosp_us997-userdebug
-mka aex -j$(nproc --all)
+mka aex -j$(nproc --all) | tee log.txt
 sudo cp ~/aex/out/target/product/us997/AospExtended-*-us997-*.zip /home/dom133/builds/roms/aex/
