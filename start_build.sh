@@ -18,19 +18,19 @@ cd ~/AEX/
 lunch aosp_h870-userdebug
 make depmod
 mka aex -j$(nproc --all) | tee log.txt
-cp ~/AEX/out/target/product/h870/AospExtended-*-h870-*.zip ~/builds/roms/aex/
+cp ~/AEX/out/target/product/h870/AospExtended*-h870-*.zip ~/builds/roms/aex/
 
 export WITH_GAPPS=false
 cd ~/AEX/
 lunch aosp_h872-userdebug
 mka aex -j$(nproc --all) | tee log.txt
-cp ~/AEX/out/target/product/h872/AospExtended-*-h872-*.zip ~/builds/roms/aex/
+cp ~/AEX/out/target/product/h872/AospExtended*-h872-*.zip ~/builds/roms/aex/
 
 export WITH_GAPPS=false
 cd ~/AEX/
 lunch aosp_us997-userdebug
 mka aex -j$(nproc --all) | tee log.txt
-cp ~/AEX/out/target/product/us997/AospExtended-*-us997-*.zip ~/builds/roms/aex/
+cp ~/AEX/out/target/product/us997/AospExtended*-us997-*.zip ~/builds/roms/aex/
 
 cd ~/
 ./upload_aex_build.sh
