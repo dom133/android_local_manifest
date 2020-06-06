@@ -14,7 +14,7 @@ cd ~/AEX
 
 . build/envsetup.sh
 make clobber
-sudo rm -rf ~/builds/roms/aex/*
+rm -rf ~/builds/roms/aex/*
 
 cd ~/AEX/
 
@@ -22,4 +22,4 @@ lunch aosp_h870-userdebug
 make depmod
 mka aex -j$(nproc --all) | tee log.txt
 
-sudo cp ~/aex/out/target/product/h870/AospExtended-*-h870-*.zip ~/builds/roms/aex/
+cp ~/AEX/out/target/product/h870/AospExtended-*-h870-*.zip ~/builds/roms/aex/
