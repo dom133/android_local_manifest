@@ -9,6 +9,7 @@ git fetch https://github.com/LG-G6-DEV/havoc_frameworks_base ten && git cherry-p
 
 export SELINUX_IGNORE_NEVERALLOWS=true
 export TARGET_DISABLES_GAPPS=true
+export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
 
 cd ~/PA
 rm -rf ~/builds/roms/pa/*
