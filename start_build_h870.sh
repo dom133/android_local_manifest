@@ -6,7 +6,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 cd ~/AEX/frameworks/base/
 git fetch https://github.com/LG-G6-DEV/havoc_frameworks_base ten && git cherry-pick 794cb90533137816436ccd26ff2e04947fb12e31
-git cherry-pick 6fd767f42aa0b59c024aaab142e2442b7f045b08
+git fetch https://github.com/LG-G6-DEV/havoc_frameworks_base fix-aod && git cherry-pick 6fd767f42aa0b59c024aaab142e2442b7f045b08
 
 cd ~/AEX/kernel/lge/msm8996
 git revert 856649b97537f0a24dc7d1e27e08baeafd6784c1 --no-edit
