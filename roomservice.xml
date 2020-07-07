@@ -12,7 +12,7 @@
 	<project name="LG-G6-DEV/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" revision="fix-aod" />
 	
 	<!-- <project name="LG-G6-DEV/lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="LA.UM.7.5.r1-04800-8x96.0" /> -->
-	<project name="dom133/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="my" revision="fix-aod" />
+	<project name="dom133/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="my" revision="Optimizing" />
 	
 	<remove-project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" />
 	
