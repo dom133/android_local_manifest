@@ -19,7 +19,7 @@
 	<project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" remote="github" revision="lineage-17.1" />
 	
 	<project name="SGCMarkus/android_device_lge_common" path="device/lge/lge_common" remote="github" revision="lineage-17.1" />
-	<project name="SGCMarkus/android_hardware_lge" path="device/lge/hardware_dac" remote="github" revision="lineage-17.1" />
+	<project name="SGCMarkus/android_hardware_lge" path="hardware/lge" remote="github" revision="lineage-17.1" />
 	
 	<!-- <remove-project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8996" /> -->
 	<!-- <project name="dom133/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="github" revision="lineage-16.0-caf-8996" /> -->
