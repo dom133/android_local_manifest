@@ -25,7 +25,7 @@
 	<project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="github" revision="quartz-dev" groups="aospa" />
 	
 	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
-	<project name="SGCMarkus/android_device_lge_common" path="device/lge/lge_common" remote="github" revision="lineage-17.1" />
+	<project name="LineageOS/android_device_lge_common" path="device/lge/lge_common" remote="github" revision="lineage-17.1" />
 	
 	<!-- <remove-project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8996" /> -->
 	<!-- <project name="dom133/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="github" revision="lineage-16.0-caf-8996" /> -->
