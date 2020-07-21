@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd ~/PA
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -j 16 --force-sync
 
 cd ~/PA/frameworks/base/
 git fetch https://github.com/LG-G6-DEV/havoc_frameworks_base ten && git cherry-pick 794cb90533137816436ccd26ff2e04947fb12e31
