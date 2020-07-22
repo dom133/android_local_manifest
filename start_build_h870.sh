@@ -6,6 +6,9 @@ repo sync -j 16 --force-sync
 cd ~/PA/frameworks/base/
 git fetch https://github.com/LG-G6-DEV/havoc_frameworks_base ten && git cherry-pick 794cb90533137816436ccd26ff2e04947fb12e31
 
+cd ~/PA/vendor/pa
+git fetch "https://gerrit.aospa.co/AOSPA/android_vendor_pa" refs/changes/48/13248/2 && git cherry-pick FETCH_HEAD
+
 export SELINUX_IGNORE_NEVERALLOWS=true
 export TARGET_DISABLES_GAPPS=true
 export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
