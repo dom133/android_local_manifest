@@ -28,6 +28,10 @@
 	
 	<remove-project path="system/bt" name="AOSPA/android_system_bt" remote="aospa" groups="aospa" />
 	<remove-project path="packages/apps/Bluetooth" name="AOSPA/android_packages_apps_Bluetooth" remote="aospa" groups="aospa" />
+	<remove-project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/commonsys/bluetooth" remote="caf_bluetooth"/>
+  	<remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="caf_bluetooth"/>
+  	<remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" remote="caf_bluetooth"/>
+	
 	
 	<project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.1" />
   	<project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.1" />
