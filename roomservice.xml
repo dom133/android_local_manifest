@@ -13,7 +13,6 @@
 	<project name="LG-G6-DEV/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="Optimizing" />
 	
 	<project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="aosp" />
-	<project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="lineage-17.1" />
 	
 	<project path="hardware/qcom/audio" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="quartz-89xx" />
   	<project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="quartz-89xx" />
@@ -26,6 +25,15 @@
 	
 	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
 	<project name="LineageOS/android_device_lge_common" path="device/lge/lge_common" remote="github" revision="lineage-17.1" />
+	
+	<remove-project path="system/bt" name="AOSPA/android_system_bt" remote="aospa" groups="aospa" />
+	<remove-project path="packages/apps/Bluetooth" name="AOSPA/android_packages_apps_Bluetooth" remote="aospa" groups="aospa" />
+	
+	<project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.1" />
+  	<project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.1" />
+  	<project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.1" />
+  	<project path="vendor/qcom/opensource/commonsys/system/bt" name="LineageOS/android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.1" />
+	<project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="lineage-17.1" />
 	
 	<!-- <remove-project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8996" /> -->
 	<!-- <project name="dom133/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="github" revision="lineage-16.0-caf-8996" /> -->
