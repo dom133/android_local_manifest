@@ -4,7 +4,7 @@ cd ~/PA
 repo sync -j 16 --force-sync
 
 cd ~/PA/frameworks/base/
-git fetch https://github.com/LG-G6-DEV/havoc_frameworks_base ten && git cherry-pick 794cb90533137816436ccd26ff2e04947fb12e31
+git fetch https://github.com/LG-G6-DEV/havoc_frameworks_base ten && git cherry-pick de483ae16b569bb595f277f4e3d14d6c9a3d2d45
 
 cd ~/PA/vendor/pa
 git fetch https://github.com/AOSPA/android_vendor_pa refs/changes/48/13248/2 && git cherry-pick FETCH_HEAD
