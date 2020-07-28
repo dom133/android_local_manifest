@@ -5,7 +5,7 @@ cd ~/AEX
 repo sync -j 16 --force-sync
 
 cd ~/AEX/frameworks/base/
-git fetch https://github.com/LG-G6-DEV/havoc_frameworks_base ten && git cherry-pick de483ae16b569bb595f277f4e3d14d6c9a3d2d45
+git fetch https://github.com/dom133/android_frameworks_base-1 quartz && git cherry-pick fee9e9d0e97341aaaf6d468834e787129d72e748
 
 cd ~/AEX/kernel/lge/msm8996
 git revert 856649b97537f0a24dc7d1e27e08baeafd6784c1 --no-edit
