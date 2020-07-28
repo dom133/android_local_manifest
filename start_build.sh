@@ -5,7 +5,7 @@ cd ~/PA
 repo sync -j 16 --force-sync
 
 cd ~/PA/frameworks/base/
-git fetch https://github.com/LG-G6-DEV/havoc_frameworks_base ten && git cherry-pick 794cb90533137816436ccd26ff2e04947fb12e31
+git fetch https://github.com/dom133/android_frameworks_base-1 quartz && git cherry-pick fee9e9d0e97341aaaf6d468834e787129d72e748
 
 cd ~/PA/vendor/pa
 git fetch https://github.com/AOSPA/android_vendor_pa refs/changes/48/13248/2 && git cherry-pick FETCH_HEAD
@@ -20,13 +20,16 @@ rm -rf ~/builds/roms/pa/*
 source build/envsetup.sh
 make clobber
 
-./rom-build.sh -c h870
+./rom-build.sh h870
 mv ~/PA/out/target/product/h870/pa-quartz*-h870-*.zip ~/builds/roms/pa/
 
-./rom-build.sh -c h872
+./rom-build.sh h870ds
+mv ~/PA/out/target/product/h870/pa-quartz*-h870ds-*.zip ~/builds/roms/pa/
+
+./rom-build.sh h872
 mv ~/PA/out/target/product/h872/pa-quartz*-h872-*.zip ~/builds/roms/pa/
 
-./rom-build.sh -c us997
+./rom-build.sh us997
 mv ~/PA/out/target/product/us997/pa-quartz*-us997-*.zip ~/builds/roms/pa/
 
 cd ~/
