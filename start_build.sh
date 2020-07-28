@@ -24,7 +24,7 @@ make clobber
 mv ~/PA/out/target/product/h870/pa-quartz*-h870-*.zip ~/builds/roms/pa/
 
 ./rom-build.sh h870ds
-mv ~/PA/out/target/product/h870/pa-quartz*-h870ds-*.zip ~/builds/roms/pa/
+mv ~/PA/out/target/product/h870ds/pa-quartz*-h870ds-*.zip ~/builds/roms/pa/
 
 ./rom-build.sh h872
 mv ~/PA/out/target/product/h872/pa-quartz*-h872-*.zip ~/builds/roms/pa/
