@@ -32,7 +32,7 @@ cd ~/AEX/
 lunch aosp_h870ds-userdebug
 make depmod
 mka aex -j$(nproc --all) | tee log.txt
-cp ~/AEX/out/target/product/h870/AospExtended*-h870ds-*.zip ~/builds/roms/aex/
+cp ~/AEX/out/target/product/h870ds/AospExtended*-h870ds-*.zip ~/builds/roms/aex/
 
 export WITH_GAPPS=false
 cd ~/AEX/
