@@ -19,6 +19,6 @@ rm -rf ~/builds/roms/pa/*
 source build/envsetup.sh
 make clobber
 
-./rom-build.sh -c h870
+./rom-build.sh h870
 
 cp ~/PA/out/target/product/h870/pa-quartz*-h870-*.zip ~/builds/roms/pa/
