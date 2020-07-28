@@ -4,6 +4,7 @@
 	<project name="LG-G6-DEV/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lineage-17.0" />
 <!-- LG G6 Devices --> 
 	<project name="LG-G6-DEV/android_device_lge_h870" path="device/lge/h870" remote="github" revision="aex-a10" />
+	<project name="LG-G6-DEV/android_device_lge_h870ds" path="device/lge/h870ds" remote="github" revision="aex-a10" />
 	<project name="LG-G6-DEV/android_device_lge_h872" path="device/lge/h872" remote="github" revision="aex-a10" />
 	<project name="LG-G6-DEV/android_device_lge_us997" path="device/lge/us997" remote="github" revision="aex-a10" />
 	
