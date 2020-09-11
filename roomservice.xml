@@ -1,38 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Vendor Files For LG Devices -->   
-	<project name="LG-G6-DEV/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="quartz_3.0" />
+	<project name="LG-G6-DEV/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lineage-17.1" />
 <!-- LG G6 Devices --> 
-	<project name="LG-G6-DEV/android_device_lge_h870" path="device/lge/h870" remote="github" revision="quartz_3.0" />
-	<project name="LG-G6-DEV/android_device_lge_h870ds" path="device/lge/h870ds" remote="github" revision="quartz_3.0" />
-	<project name="LG-G6-DEV/android_device_lge_h872" path="device/lge/h872" remote="github" revision="quartz_3.0" />
-	<project name="LG-G6-DEV/android_device_lge_us997" path="device/lge/us997" remote="github" revision="quartz_3.0" />
+	<project name="LG-G6-DEV/android_device_lge_h870" path="device/lge/h870" remote="github" revision="lineage-17.0" />
 	
-	<project name="LG-G6-DEV/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" revision="quartz_3.0" />
-	
-	<!-- <project name="LG-G6-DEV/lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="LA.UM.7.5.r1-04800-8x96.0" /> -->
+	<project name="LG-G6-DEV/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" revision="lineage-17.1" />
 	<project name="LG-G6-DEV/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="Optimizing" />
-	
-	<project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" remote="aosp" />
-	
-	<project path="hardware/qcom/audio" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="quartz-89xx" />
-  	<project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="quartz-89xx" />
-  	<project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="github" revision="quartz-89xx" />
-	<project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="github" revision="quartz-89xx" />
-	
-	<project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="github" revision="quartz" />
-	
-	<remove-project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="aospa" groups="aospa" />
-	<project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="github" revision="quartz-dev" groups="aospa" />
-	
-	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
-	<project name="LineageOS/android_device_lge_common" path="device/lge/lge_common" remote="github" revision="lineage-17.1" />
-	
-	<project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="lineage-17.1" />
-	
-	<remove-project path="packages/apps/Bluetooth" name="AOSPA/android_packages_apps_Bluetooth" remote="aospa" groups="aospa" />
-	<project path="packages/apps/Bluetooth" name="AOSPA/android_packages_apps_Bluetooth" remote="github" revision="quartz-dev" groups="aospa" />
-	
-	<!-- <remove-project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8996" /> -->
-	<!-- <project name="dom133/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8996" remote="github" revision="lineage-16.0-caf-8996" /> -->
 </manifest>
