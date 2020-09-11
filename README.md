@@ -1,9 +1,9 @@
-_QUARTZ for LG G6(H870)_
+_LINEAGE 18 for LG G6(H870)_
 ---------------------------
 
 the local manifests:
 
-	git clone https://github.com/dom133/android_local_manifest -b quartz-G6 .repo/local_manifests
+	git clone https://github.com/dom133/android_local_manifest -b lineage-18-G6 .repo/local_manifests
 
 Then sync up with this command:
 
@@ -16,5 +16,5 @@ Finally to build:
 
 ```bash
   . build/envsetup.sh
-  ./rom-build.sh h870
+  brunch lineage_h870-userdebug
 ```
