@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 cd ~/LOS18
 repo sync -j 16 --force-sync
@@ -12,7 +13,7 @@ export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
 
 cd ~/LOS18
 
-./pick.sh
+#./pick.sh
 
 source build/envsetup.sh
 make clobber
