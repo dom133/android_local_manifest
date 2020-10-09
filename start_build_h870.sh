@@ -13,7 +13,7 @@ export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
 
 cd ~/LOS18
 
-#./pick.sh
+./pick.sh
 
 source build/envsetup.sh
 make clobber
