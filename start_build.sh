@@ -16,7 +16,8 @@ rm -rf ~/builds/roms/pa/*
 source build/envsetup.sh
 make clobber
 
-repopick 13402
+cd ~/PA/device/lge/h870/
+git fetch https://gitlab.com/dom133/android_device_lge_h870 quartz_3.0 && git cherry-pick e11910227c843de22f308e68782b368c40329905
 
 ./rom-build.sh h870
 mv ~/PA/out/target/product/h870/pa-quartz*-h870-*.zip ~/builds/roms/pa/
