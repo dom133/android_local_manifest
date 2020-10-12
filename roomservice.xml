@@ -13,7 +13,7 @@
 	<!-- <project name="LG-G6-DEV/lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="LA.UM.7.5.r1-04800-8x96.0" /> -->
 	<project name="LG-G6-DEV/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="Optimizing" />
 	
-	<project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
+	<!-- <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" /> -->
 	
 	<project path="hardware/qcom/audio" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="ruby-89xx" />
   	<project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="ruby-89xx" />
