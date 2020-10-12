@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- Vendor Files For LG Devices -->   
-	<project name="LG-G6-DEV/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="rubby" />
+	<project name="LG-G6-DEV/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="ruby" />
 <!-- LG G6 Devices --> 
-	<project name="LG-G6-DEV/android_device_lge_h870" path="device/lge/h870" remote="github" revision="rubby" />
+	<project name="LG-G6-DEV/android_device_lge_h870" path="device/lge/h870" remote="github" revision="ruby" />
 	<!-- <project name="LG-G6-DEV/android_device_lge_h870ds" path="device/lge/h870ds" remote="github" revision="quartz_3.0" />
 	<project name="LG-G6-DEV/android_device_lge_h872" path="device/lge/h872" remote="github" revision="quartz_3.0" />
 	<project name="LG-G6-DEV/android_device_lge_us997" path="device/lge/us997" remote="github" revision="quartz_3.0" /> -->
@@ -15,10 +15,10 @@
 	
 	<project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
 	
-	<project path="hardware/qcom/audio" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="rubby-89xx" />
-  	<project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="rubby-89xx" />
-  	<project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="github" revision="rubby-89xx" />
-	<project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="github" revision="rubby-89xx" />
+	<project path="hardware/qcom/audio" name="AOSPA/android_hardware_qcom_audio" remote="github" revision="ruby-89xx" />
+  	<project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="ruby-89xx" />
+  	<project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="github" revision="ruby-89xx" />
+	<project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="github" revision="ruby-89xx" />
 	
 	
 	<!-- <remove-project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="aospa" groups="aospa" />
