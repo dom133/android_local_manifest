@@ -13,8 +13,8 @@ export SELINUX_IGNORE_NEVERALLOWS=true
 export TARGET_DISABLES_GAPPS=true
 export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
 
-cd ~/PA
-rm -rf ~/builds/roms/pa/*
+cd ~/PA-RUBY
+#rm -rf ~/builds/roms/pa/*
 
 source build/envsetup.sh
 make clobber
