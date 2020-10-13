@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd ~/PA-RUBY
-repo sync -c --no-clone-bundle --current-branch --no-tags -j4 --force-sync
+repo sync -c --no-clone-bundle --current-branch --no-tags -j 16 --force-sync
 
 #cd ~/PA/frameworks/base/
 #git fetch https://github.com/dom133/android_frameworks_base-1 quartz && git cherry-pick fee9e9d0e97341aaaf6d468834e787129d72e748 && git cherry-pick 6b14318aabd7399515502c3182760efd31e0706b && git cherry-pick dfa33543223f9a9d095bf147f0a40b6be0e493ee
