@@ -16,11 +16,11 @@ export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
 cd ~/PA-RUBY
 #rm -rf ~/builds/roms/pa/*
 
-source build/envsetup.sh
-make clobber
+#source build/envsetup.sh
+#make clobber
 
 #repopick 13402
 
-./rom-build.sh h870
+./rom-build.sh -c h870
 
 #cp ~/PA/out/target/product/h870/pa-quartz*-h870-*.zip ~/builds/roms/pa/
