@@ -21,6 +21,10 @@ cd ~/PA-RUBY
 
 #repopick 13402
 
+repopick 15125
+repopick 15123
+repopick 15124
+
 ./rom-build.sh -c h870
 
 #cp ~/PA/out/target/product/h870/pa-quartz*-h870-*.zip ~/builds/roms/pa/
