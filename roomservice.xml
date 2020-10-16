@@ -24,7 +24,7 @@
   	<project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="github" revision="ruby-89xx" />
 	<project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="github" revision="ruby-89xx" />
 	
-	<remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr">
+	<remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" />
 
 	<project name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="ruby">
 	    <linkfile dest="vendor/qcom/defs/product-defs/vendor/ipacm_vendor_product.mk" src="ipacm_vendor_product.mk"/>
