@@ -24,12 +24,6 @@
   	<project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="github" revision="ruby-89xx" />
 	<project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="github" revision="ruby-89xx" />
 	
-	<remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="caf_vendor">
-	
-	<project name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="github" revision="ruby">
-	    <linkfile dest="vendor/qcom/defs/product-defs/vendor/ipacm_vendor_product.mk" src="ipacm_vendor_product.mk"/>
-	</project>
-	
 	<!-- <remove-project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="aospa" groups="aospa" />
 	<project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="github" revision="quartz-dev" groups="aospa" /> -->
 	
