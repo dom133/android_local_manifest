@@ -21,9 +21,9 @@ make clobber
 
 #repopick 13402
 
-repopick 15125
-repopick 15123
-repopick 15124
+#repopick 15125
+#repopick 15123
+#repopick 15124
 
 ./rom-build.sh h870
 
