@@ -19,7 +19,6 @@ git revert f223176ff5508bef2b291a6cf8f64119f47a807e --no-edit
 
 cd ~/R11.0
 
-
 source build/envsetup.sh
 lunch revengeos_h870-userdebug
 
