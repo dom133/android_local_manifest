@@ -11,6 +11,12 @@ repo sync -c --force-sync --no-tags --no-clone-bundle -j16 --optimized-fetch --p
 export SELINUX_IGNORE_NEVERALLOWS=true
 export TEMPORARY_DISABLE_PATH_RESTRICTIONS=true
 
+cd ~/R11.0/kernel/lge/msm8996
+git revert ee6d2bb3f3360acefae265fdcb03ee7388e9077b --no-edit
+git revert 856649b97537f0a24dc7d1e27e08baeafd6784c1 --no-edit
+git revert cc655c81264d495f074c3a8d5addd1978fd0e78d --no-edit
+git revert f223176ff5508bef2b291a6cf8f64119f47a807e --no-edit
+
 cd ~/R11.0
 
 
