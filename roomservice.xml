@@ -24,10 +24,7 @@
 	<project path="frameworks/opt/net/wifi" name="AOSPA/android_frameworks_opt_net_wifi" remote="github" revision="quartz-dev" groups="aospa" /> -->
 	
 	<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-18.0" />
-	
-	<remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
-	<project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.0" />
-		
+			
 	<!-- <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="lineage-18.0" /> -->
 	
 	<!-- <remove-project path="packages/apps/Bluetooth" name="AOSPA/android_packages_apps_Bluetooth" remote="aospa" groups="aospa" />
